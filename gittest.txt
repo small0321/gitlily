@@ -1,0 +1,13 @@
+SVN   http://tonglinlin-PC/svn/IOS_CODE/
+WIFI  tll/11111111
+
+
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+find . -type d -name ".svn"|xargs rm -rf
+
+svn import CCBLifeInsurance https://git-pc/svn/IOS_CODE/iPad/CCBLifeInsurance -m "import new Project"
+
+dsdgsg
+fsdgd
+sdgsdg
